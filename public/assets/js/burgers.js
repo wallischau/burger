@@ -10,7 +10,7 @@ $(function() {
       devoured: 0
     };
 
-    console.log(newBurger);
+    // console.log(newBurger);
     // Send the POST request.
     $.ajax("/api/burgers", {
       type: "POST",
@@ -26,7 +26,7 @@ $(function() {
 
   $(".devoured-btn").on("click", function(event) {
     event.preventDefault();
-    console.log($(this));
+    // console.log($(this));
     var id = $(this).attr('id').substr(14);
     console.log(id);
     var devourValue = {devoured: 1};
