@@ -1,3 +1,8 @@
+/* Burger application                              */
+/* Author: Wallis Chau                             */
+/* server.js for burger application                */
+/* Description: listen to start burger application */
+
 var express = require("express");
 var methORide = require("method-override");
 var bodyParser = require("body-parser");

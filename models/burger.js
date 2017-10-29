@@ -1,3 +1,6 @@
+/* Author: Wallis Chau                 */
+/* query model                         */
+
 var orm = require("../config/orm.js");
 
 var burger = {

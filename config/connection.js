@@ -1,3 +1,7 @@
+/* Author: Wallis Chau           */
+/* Date: 10/23/17                */
+/* MySQL connection              */
+
 // Set up MySQL connection.
 var mysql = require("mysql");
 

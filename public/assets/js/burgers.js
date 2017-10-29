@@ -1,3 +1,7 @@
+/* Author: Wallis Chau                     */
+/* event handling                          */
+/* api calls                               */
+
 $(function() {
 
   $(".create-form").on("click", "#submit", function(event) {
